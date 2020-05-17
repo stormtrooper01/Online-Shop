@@ -1,0 +1,802 @@
+.header-top {
+    min-height: 30px;
+    background: #fccaca;
+}
+
+.container-header-top {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-top-left {
+    order: 1;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    align-self: flex-start;
+}
+
+.header-top-left span.ico1-map-pointer {
+    padding-left: 35px;
+    cursor: pointer;
+}
+
+.header-top-left span {
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    height: 16px;
+    padding-top: 3px;
+    padding-right: 25px;
+    margin-right: 21px;
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.header-top-left span.ico1-map-pointer::before {
+    width: 23px;
+    display: block;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    content: url(iconfinder_Tilda_Icons_1ed_location_3586361.svg);
+    padding-top: 0px;
+    padding-left: 1px;
+    margin-left: 5px;
+}
+
+.header-top-left span::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.header-top-left span::after {
+    content: ' ';
+    width: 2px;
+    height: 20px;
+    display: block;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+*,
+:after,
+:before,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+    text-rendering: optimizeLegibility;
+}
+
+.header-top-left span.ico2 {
+    padding-left: 29px;
+}
+
+.header-top-left span.ico2:before {
+    width: 16px;
+    background: 0 0 no-repeat;
+}
+
+.header-top-left span.ico2:before {
+    width: 23px;
+    display: block;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    content: url(iconfinder_Tilda_Icons_1ed_phone_3586359.svg);
+    padding-top: 0px;
+    padding-left: 1px;
+    margin-left: 0px;
+    margin-right: 2px;
+}
+
+.wishlist-icon-button {
+    cursor: pointer;
+    font-family: 'fl-icons';
+}
+
+.fa-heart-o:before {
+    content: url(4wed_heart.svg);
+    width: 25px;
+    display: block;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 0px;
+    position: flex;
+    display: block;
+    margin-top: 0px;
+}
+
+.fa {
+    display: inline-block;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.wishlist {
+    margin-right: 0px;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 20px;
+}
+
+.wishlist:before {
+    content: ' ';
+    width: 2px;
+    height: 20px;
+    display: block;
+    background: #fff;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.cart-icon-button {
+    cursor: pointer;
+}
+
+.cart-button:before {
+    content: url(Tilda_Icons_3st_cart.svg);
+    width: 25px;
+    display: inline-block;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 0px;
+    position: flex;
+    margin-top: 0px;
+}
+
+.cart {
+    margin-right: 0px;
+    position: absolute;
+    margin-left: 1160px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+@media screen and (max-width: 980px) .gridlock .header-menu {
+    width: 720px;
+}
+
+@media screen and (max-width: 1220px) .gridlock .header-menu {
+    width: 960px;
+}
+
+.gridlock .header-menu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+div {
+    display: block;
+}
+
+#row {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+@media screen and (max-width: 980px) and (min-width: 739px) .gridlock .header-menu .tablet-6 {
+    width: 97.9166666666666667%;
+}
+
+#logo a {
+    margin-top: 20px;
+    padding: 0;
+    display: inline-block;
+    width: 50%;
+}
+
+a:visited {
+    color: #000000;
+    text-decoration: none;
+    outline: 0;
+}
+
+h1 {
+    color: #431b1b;
+    font-family: Helvetica;
+    font-size: 60px;
+    margin-top: 40px;
+    font-weight: 600;
+    width: 50%;
+    margin-left: 60px;
+}
+
+@media only screen and (max-width: 980px) .nav {
+    position: relative;
+}
+
+ul#nav {
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    list-style: none;
+    line-height: 40px;
+    margin-top: 0px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: disc inside;
+}
+
+ul#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+ul#nav li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #653131;
+    height: 40px;
+    display: block;
+    padding: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-decoration: none;
+    transition: all 2s;
+}
+
+ul#nav li a:hover {
+    color: #c47f7f;
+    z-index: 1;
+}
+
+ul#nav li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #c47f7f;
+    height: 1px;
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+}
+
+ul#nav li a:before {
+    transition: all .5s;
+}
+
+ul#nav li a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+}
+
+ul#nav .menu {
+    margin-top: 0px;
+    margin-left: 10px;
+    color: #431b1b;
+    text-decoration: none;
+}
+
+.menu-items {
+    margin-top: 0px;
+    margin-left: 460px;
+    display: inline-block;
+    margin-top: 50px;
+    float: right;
+    text-align: right;
+    position: absolute;
+}
+
+.logo-icon {
+    width: 50%;
+    display: inline-block;
+}
+
+.row {
+    display: inline-block;
+}
+
+.header-menu {
+    background-image: url(130938.jpg);
+}
+
+.items {
+    text-align: center;
+    font-family: Helvetica;
+    color: #431b1b;
+    border-bottom: 1px solid #eaeaea;
+    overflow: visible;
+    line-height: 17px;
+    height: 9px;
+    margin: 20px auto 40px;
+    text-align: center;
+    width: 97.9166666666666667%;
+}
+
+#content span {
+    background: #ffffff;
+}
+
+ul#product-loop {
+    padding-top: 10px;
+    list-style-type: none;
+    float: left;
+}
+
+ul#product-loop li.product {
+    float: left;
+    display: inline;
+    border: 1px solid #e5e5e5;
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+li.product img {
+    margin: 0 auto;
+    display: block;
+    transition: all 0.2s linear;
+    overflow: hidden;
+}
+
+li.product:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.2s;
+}
+
+li.product:hover img {
+    transform: scale(1.1);
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 15px 15px rgba(0, 0, 0, 0.22);
+}
+
+a.info {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    font-family: Raleway, serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+    margin-left: 130px;
+}
+
+li.product a.info:hover {
+    box-shadow: 0 0 5px #000;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.hider {
+    display: none;
+    transition: .3s;
+    transform: translateY(2px);
+    position: absolute;
+    font-family: Helvetica;
+    color: #5a5a5a;
+    font-weight: 200;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.info:focus ~ .hider,
+.info:active ~ .hider,
+.hider:hover {
+    display: block;
+}
+
+img {
+    max-width: 390px;
+    border: 0;
+    max-height: 400px;
+    cursor: pointer;
+}
+
+.product-info {
+    text-align: center;
+    padding-top: 10px
+}
+
+.product-info a {
+    text-decoration: none! important;
+    text-transform: uppercase;
+    font-family: Helvetica;
+}
+
+h3 {
+    font-size: 17px;
+    margin-bottom: 1em;
+    font-family: Helvetica;
+}
+
+.prod-price {
+    font-weight: bold;
+}
+
+.smartwishlist {
+    cursor: pointer;
+}
+
+.smartwishlist {
+    z-index: initial!important;
+}
+
+h2 {
+    text-align: center;
+    font-family: Helvetica;
+    color: #431b1b;
+    border-bottom: 1px solid #eaeaea;
+    overflow: visible;
+    line-height: 17px;
+    height: 9px;
+    margin: 20px auto 40px;
+    text-align: center;
+    width: 97.9166666666666667%;
+    background: #ffffff;
+}
+
+h2 {
+    color: ;
+    border-bottom: 1px solid #eeeeee;
+    overflow: visible;
+    line-height: 17px;
+    height: 9px;
+    margin: 20px auto 40px;
+    text-align: center;
+    width: 97.9166666666666667%;
+    text-transform: uppercase;
+}
+
+#social span {
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+h2 span {
+    background: #ffffff;
+}
+
+.clear {
+    clear: both;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.icon-button-instagram {
+    cursor: pointer;
+}
+
+.icon-instagram:before {
+    content: url(Tilda_Icons_26sn_instagram.svg);
+    width: 80px;
+    display: inline-block;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 0px;
+    position: flex;
+    margin-top: 0px;
+    margin-left: 350px;
+}
+
+.icon-button-snapchat {
+    cursor: pointer;
+}
+
+.icon-snapchat:before {
+    content: url(Tilda_Icons_26sn_snapchat.svg);
+    width: 80px;
+    display: inline-block;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 0px;
+    position: flex;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.icon-button-telegram {
+    cursor: pointer;
+}
+
+.icon-telegram:before {
+    content: url(Tilda_Icons_26sn_telegram.svg);
+    width: 80px;
+    display: inline-block;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 0px;
+    position: flex;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.icon-button-twitter {
+    cursor: pointer;
+}
+
+.icon-twitter:before {
+    content: url(Tilda_Icons_26sn_twitter.svg);
+    width: 80px;
+    display: inline-block;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 0px;
+    position: flex;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.icon-button-facebook {
+    cursor: pointer;
+}
+
+.icon-facebook:before {
+    content: url(Tilda_Icons_26sn_facebook.svg);
+    width: 80px;
+    display: inline-block;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 0px;
+    position: flex;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.icon-button-mail {
+    cursor: pointer;
+}
+
+.icon-mail:before {
+    content: url(Tilda_Icons_26sn_mail.svg);
+    width: 80px;
+    display: inline-block;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 0px;
+    position: flex;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.empty-wishlist {
+    color: #0b388f;
+    font-family: inherit;
+    font-size: 18px;
+    background-color: #d9edf7;
+    border-color: ;
+    text-align: center;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    background: #000000;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    line-height: normal;
+    padding: 0 10px;
+    font-family: 'Lato', sans-serif;
+    -webkit-appearance: none;
+    border: 0;
+    min-width: 160px;
+    line-height: 38px;
+    margin-left: 20px;
+}
+
+abbr[title="required"] {
+    color: #b20000;
+}
+
+.label {
+    font-family: Helvetica;
+}
+
+select2-hidden-accessible {
+    border: 0!important;
+    clip: rect(0 0 0 0)!important;
+    height: 1px!important;
+    margin: -1px!important;
+    overflow: hidden!important;
+    padding: 0!important;
+    position: absolute!important;
+    width: 1px!important;
+}
+
+select,
+.select2-container .select2-choice,
+.select2-container .select2-selection {
+    box-shadow: inset 0 -1.4em 1em 0 rgba(0, 0, 0, 0.02);
+    background-color: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAHCAYAAAD9NeaIAAAAGXRFW…QsItsCdEtwWUSRBdgsQbeIYgtAgAWHOMwiJSBezkAhAAgwAJSTG/DI0S9VAAAAAElFTkSuQmCC);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: auto 15%;
+    border-radius: 0;
+    display: inline-block;
+}
+
+input[type='email'],
+input[type='date'],
+input[type='search'],
+input[type='number'],
+input[type='text'],
+input[type='tel'],
+input[type='url'],
+input[type='password'],
+textarea,
+select,
+.select2-container .select2-choice,
+.select2-container .select2-selection {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 0 .75em;
+    height: 2.507em;
+    font-size: .97em;
+    border-radius: 0;
+    max-width: 50%;
+    width: 50%;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #333;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: color .3s, border .3s, background .3s, opacity .3s;
+    cursor: pointer;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #888 transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    height: 0;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 2.507em;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 20px;
+}
+
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    margin: 0 0 -4px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .animated {
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+}
