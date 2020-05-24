@@ -1,4 +1,5 @@
 # Online-Shop
-Web-programming labs
+Web-programming labs  
+
 The main page looks like this for now:
 ![](images/main.png)
