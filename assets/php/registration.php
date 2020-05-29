@@ -10,7 +10,7 @@ if(mysqli_fetch_assoc($result) != [] && $result) {
 } else {
     print "Add new user $email:$phone";
     $insert ="INSERT INTO `customers data` (`e-mail`, phone, `id`) VALUES ('$email','$phone', '$id')";
-    $insert_result = mysqli_query($link, $insert) or die("Ошибка " . mysqli_error($link));
+    $insert_result = mysqli_query($link, $insert) or die("Error " . mysqli_error($link));
 }
 mysqli_free_result($result);
 mysqli_close($link);
